@@ -1,0 +1,36 @@
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+a{
+    text-decoration: none;
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #198754;
+}
+
+.form-range::-webkit-slider-thumb:active {
+    background-color: #d1e7dd;
+}
+
+.form-check-input[type=checkbox]:checked, .form-check-input:checked {
+    background-color: #198754 !important;
+}
+
+
+@media screen and (min-width:992px) {
+    .carousel-img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-25%);
+    }
+    .h-60 {
+        width: 100% !important;
+        height: 60vh;
+    }
+}
+
+
